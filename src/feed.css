@@ -1,0 +1,14 @@
+body {
+  background-color: #2a105c;
+}
+.Feed {
+  padding-left: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.SearchedFeed {
+  padding-left: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}

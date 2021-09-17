@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@200&display=swap");
+
+.Video {
+  color: white;
+  position: relative;
+  display: block;
+  width: 355px;
+  height: 300px;
+  overflow: hidden;
+  padding: 40px;
+  -webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+  font-size: 12px;
+}
+
+.Video:active {
+  width: 800px;
+  height: 420px;
+}
+
+.Video:hover {
+  background-color: #351770;
+  cursor: pointer;
+}
+
+.Video:hover > .thumbnail {
+  display: none;
+}
+
+.Video:hover > .ExtendedVideo {
+  display: block !important;
+}
+
+.Video .thumbnail {
+  height: 180px;
+  object-fit: contain;
+  max-width: 370px;
+  min-width: 300px;
+}
+.Video .user {
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  margin-top: 10px !important;
+}
+
+.Video .user .channel {
+  font-weight: 500;
+}
+
+.MuiAvatar-root {
+  float: left;
+}
+
+.Video .user .channel {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}

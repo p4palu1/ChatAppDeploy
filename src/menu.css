@@ -1,0 +1,27 @@
+.Menu li:hover {
+  background-color: #37245e;
+  cursor: pointer;
+}
+
+.Menu li span {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.home {
+  background-color: #2d1361;
+}
+.Menu .new:hover > .new-icon {
+  fill: rgb(196, 53, 196);
+}
+.Menu .sub:hover > .sub-icon {
+  fill: rgb(196, 53, 196);
+}
+
+.sub.clicked {
+  fill: rgb(196, 53, 196);
+}
+
+.Time {
+  margin-left: 5px !important;
+}

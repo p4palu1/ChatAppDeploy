@@ -1,0 +1,26 @@
+.ClickedVideo {
+  color: white;
+  position: relative;
+  display: none;
+  overflow: hidden;
+  padding: 40px;
+  -webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+  font-size: 12px;
+  background-color: #271150;
+}
+
+.ClickedVideo h2 {
+  display: flex;
+  align-items: center;
+  margin-top: 15px !important;
+}
+
+.ClickedVideo .profilePic {
+  margin-right: 10px !important;
+}
+.ClickedVideo h1 {
+  margin-top: 15px !important;
+}
